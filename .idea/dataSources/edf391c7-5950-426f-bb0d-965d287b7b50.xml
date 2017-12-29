@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="sqlex@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="sqlex">
+      <ObjectId>128871</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12373</ObjectId>
+    </database>
+    <database id="4" parent="1" name="gati">
+      <ObjectId>16394</ObjectId>
+    </database>
+    <database id="5" parent="1" name="geo">
+      <ObjectId>17812</ObjectId>
+    </database>
+    <database id="6" parent="1" name="upmm">
+      <ObjectId>32294</ObjectId>
+    </database>
+    <database id="7" parent="1" name="upmm_yii">
+      <ObjectId>33319</ObjectId>
+    </database>
+    <database id="8" parent="1" name="ourspb_test">
+      <ObjectId>41587</ObjectId>
+    </database>
+    <database id="9" parent="1" name="address">
+      <ObjectId>43217</ObjectId>
+    </database>
+    <database id="10" parent="1" name="address_yii">
+      <ObjectId>51939</ObjectId>
+    </database>
+    <database id="11" parent="1" name="golos">
+      <ObjectId>60616</ObjectId>
+    </database>
+    <database id="12" parent="1" name="address_local">
+      <ObjectId>62170</ObjectId>
+    </database>
+    <database id="13" parent="1" name="upmm_yii_new">
+      <ObjectId>72417</ObjectId>
+    </database>
+    <database id="14" parent="1" name="irsi">
+      <ObjectId>93532</ObjectId>
+    </database>
+    <database id="15" parent="1" name="licensing">
+      <ObjectId>94978</ObjectId>
+    </database>
+    <database id="16" parent="1" name="golosPiter">
+      <ObjectId>95112</ObjectId>
+    </database>
+    <database id="17" parent="1" name="golos2">
+      <ObjectId>95136</ObjectId>
+    </database>
+    <database id="18" parent="1" name="golos3">
+      <ObjectId>95777</ObjectId>
+    </database>
+    <database id="19" parent="1" name="yiivue">
+      <ObjectId>104430</ObjectId>
+    </database>
+    <database id="20" parent="1" name="polygon">
+      <ObjectId>104467</ObjectId>
+    </database>
+    <database id="21" parent="1" name="toristest">
+      <ObjectId>104526</ObjectId>
+    </database>
+    <database id="22" parent="1" name="godb">
+      <ObjectId>104527</ObjectId>
+    </database>
+    <database id="23" parent="1" name="user_toris">
+      <ObjectId>104573</ObjectId>
+    </database>
+    <database id="24" parent="1" name="symftree">
+      <ObjectId>104665</ObjectId>
+    </database>
+    <database id="25" parent="1" name="upmm_new">
+      <ObjectId>104668</ObjectId>
+    </database>
+    <database id="26" parent="1" name="upmm_gis">
+      <ObjectId>104914</ObjectId>
+    </database>
+    <database id="27" parent="1" name="upmm_new_new">
+      <ObjectId>106862</ObjectId>
+    </database>
+    <database id="28" parent="1" name="upmm_new_new_new">
+      <ObjectId>108884</ObjectId>
+    </database>
+    <database id="29" parent="1" name="ummd">
+      <ObjectId>111228</ObjectId>
+    </database>
+    <database id="30" parent="1" name="search">
+      <ObjectId>127709</ObjectId>
+    </database>
+    <database id="31" parent="1" name="ummd1">
+      <ObjectId>127960</ObjectId>
+    </database>
+    <database id="32" parent="1" name="ummd2">
+      <ObjectId>128299</ObjectId>
+    </database>
+    <database id="33" parent="1" name="godb2">
+      <ObjectId>128545</ObjectId>
+    </database>
+    <database id="34" parent="1" name="godb3">
+      <ObjectId>128573</ObjectId>
+    </database>
+    <database id="35" parent="1" name="knp">
+      <ObjectId>128615</ObjectId>
+    </database>
+    <database id="36" parent="1" name="ummd_test">
+      <ObjectId>128624</ObjectId>
+    </database>
+    <schema id="37" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-12-28.11:09:08.400</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1358251</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="38" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="39" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="40" parent="2" name="pg_temp_1">
+      <ObjectId>11816</ObjectId>
+    </schema>
+    <schema id="41" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11817</ObjectId>
+    </schema>
+    <schema id="42" parent="2" name="information_schema">
+      <ObjectId>12081</ObjectId>
+    </schema>
+    <sequence id="43" parent="37" name="computer_id_seq">
+      <ObjectId>128979</ObjectId>
+      <StateNumber>1358251</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="44" parent="37" name="laptop_id_seq">
+      <ObjectId>128970</ObjectId>
+      <StateNumber>1358251</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="45" parent="37" name="printer_id_seq">
+      <ObjectId>128988</ObjectId>
+      <StateNumber>1358251</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="46" parent="37" name="product_id_seq">
+      <ObjectId>129000</ObjectId>
+      <StateNumber>1358251</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="47" parent="37" name="computer">
+      <ObjectId>128981</ObjectId>
+      <StateNumber>1358251</StateNumber>
+    </table>
+    <table id="48" parent="37" name="laptop">
+      <ObjectId>128972</ObjectId>
+      <StateNumber>1358251</StateNumber>
+    </table>
+    <table id="49" parent="37" name="migration_versions">
+      <ObjectId>128965</ObjectId>
+      <StateNumber>1358250</StateNumber>
+    </table>
+    <table id="50" parent="37" name="printer">
+      <ObjectId>128990</ObjectId>
+      <StateNumber>1358251</StateNumber>
+    </table>
+    <table id="51" parent="37" name="product">
+      <ObjectId>129002</ObjectId>
+      <StateNumber>1358251</StateNumber>
+    </table>
+    <column id="52" parent="47" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+      <SequenceName>computer_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;computer_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="53" parent="47" name="product_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="54" parent="47" name="speed">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="55" parent="47" name="ram">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="56" parent="47" name="hd">
+      <Position>5</Position>
+      <DataType>numeric(5,1)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="57" parent="47" name="cd">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="58" parent="47" name="price">
+      <Position>7</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <index id="59" parent="47" name="computer_pkey">
+      <ObjectId>128985</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="60" parent="47" name="idx_a298a7a64584665a">
+      <ObjectId>128987</ObjectId>
+      <ColNames>product_id</ColNames>
+    </index>
+    <key id="61" parent="47" name="computer_pkey">
+      <ObjectId>128986</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>computer_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="62" parent="47" name="fk_a298a7a64584665a">
+      <ObjectId>129016</ObjectId>
+      <ColNames>product_id</ColNames>
+      <RefTableId>129002</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>product</RefTableName>
+      <RefKeyName>product_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="63" parent="48" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+      <SequenceName>laptop_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;laptop_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="64" parent="48" name="product_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="65" parent="48" name="code">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="66" parent="48" name="speed">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="67" parent="48" name="ram">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="68" parent="48" name="hd">
+      <Position>6</Position>
+      <DataType>numeric(5,1)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="69" parent="48" name="price">
+      <Position>7</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="70" parent="48" name="screen">
+      <Position>8</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <index id="71" parent="48" name="laptop_pkey">
+      <ObjectId>128976</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="72" parent="48" name="idx_e001563b4584665a">
+      <ObjectId>128978</ObjectId>
+      <ColNames>product_id</ColNames>
+    </index>
+    <key id="73" parent="48" name="laptop_pkey">
+      <ObjectId>128977</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>laptop_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="74" parent="48" name="fk_e001563b4584665a">
+      <ObjectId>129011</ObjectId>
+      <ColNames>product_id</ColNames>
+      <RefTableId>129002</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>product</RefTableName>
+      <RefKeyName>product_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="75" parent="49" name="version">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358250</StateNumber>
+    </column>
+    <index id="76" parent="49" name="migration_versions_pkey">
+      <ObjectId>128968</ObjectId>
+      <ColNames>version</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="49" name="migration_versions_pkey">
+      <ObjectId>128969</ObjectId>
+      <ColNames>version</ColNames>
+      <UnderlyingIndexName>migration_versions_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="78" parent="50" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+      <SequenceName>printer_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;printer_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="79" parent="50" name="product_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="80" parent="50" name="color">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="81" parent="50" name="type">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="82" parent="50" name="price">
+      <Position>5</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <index id="83" parent="50" name="printer_pkey">
+      <ObjectId>128997</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="84" parent="50" name="idx_8d4c79ed4584665a">
+      <ObjectId>128999</ObjectId>
+      <ColNames>product_id</ColNames>
+    </index>
+    <key id="85" parent="50" name="printer_pkey">
+      <ObjectId>128998</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>printer_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="86" parent="50" name="fk_8d4c79ed4584665a">
+      <ObjectId>129021</ObjectId>
+      <ColNames>product_id</ColNames>
+      <RefTableId>129002</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>product</RefTableName>
+      <RefKeyName>product_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="87" parent="51" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+      <SequenceName>product_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;product_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="88" parent="51" name="maker">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="89" parent="51" name="model">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <column id="90" parent="51" name="type">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1358251</StateNumber>
+    </column>
+    <index id="91" parent="51" name="product_pkey">
+      <ObjectId>129009</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="51" name="product_pkey">
+      <ObjectId>129010</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>product_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
